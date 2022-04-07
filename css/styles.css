@@ -1,0 +1,138 @@
+body {
+  background-color: #062C30;
+  color: white;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  margin:0;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  font-size: 560%;
+  margin:50px auto 0 auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color:#66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+}
+
+.profile-photo {
+  height: 200px;
+}
+
+.cloud-left {
+  position: absolute;
+  left: 15%;
+  height: 70px;
+  top: 400px;
+}
+
+.cloud-right {
+  position: absolute;
+  right: 15%;
+  top: 70px;
+  height: 70px;
+}
+
+.body-logo {
+  height: 200px;
+}
+
+
+
+.top-container {
+  padding-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin :100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.chillies {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right:30px;
+}
+
+hr {
+  width: 3%;
+  border-style: dotted;
+  border-top: 10px;
+  border-width: 5px;
+}
+
+.profile {
+  margin : 200px;
+}
+
+.skills {
+  margin: 150px;
+}
+
+.contact-me {
+  margin:150px;
+}
+
+
+
+/*************** Bottom button CSS **********8****/
+
+.btn {
+  background: #095282;
+  background-image: -webkit-linear-gradient(top, #095282, #2980b9);
+  background-image: -moz-linear-gradient(top, #095282, #2980b9);
+  background-image: -ms-linear-gradient(top, #095282, #2980b9);
+  background-image: -o-linear-gradient(top, #095282, #2980b9);
+  background-image: linear-gradient(to bottom, #095282, #2980b9);
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-radius: 19px;
+  font-family: Courier New;
+  color: #f2e9f2;
+  font-size: 20px;
+  padding: 8px 20px 10px 20px;
+  border: solid #0a6aa6 2px;
+  text-decoration: none;
+  line-height: 10;
+}
+
+.btn:hover {
+  background: #093754;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: white;
+  color: black;
+  font-size: 10px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.bottom-link {
+  padding: 10px;
+  line-height: 3;
+}
+
+.bottom-link:hover {
+  background-color: #66BFBF;
+}
